@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    
+    <h1 style="text-align: center;">FaviconCraft By Anand</h1>
+    <div class="favicon-Container ">
+       
+    <div class="containerforFav">
+        <div class="sidebar">
+            <button id="new-favicon">Create New Favicon</button>
+            <label for="image-input" id="import-label">Import Image</label>
+            <input type="file" id="image-input" accept="image/*" />
+        </div>
+        <div class="canvas-container">
+            <div class="grid" id="grid"></div>
+            <div class="color-picker d-flex text-primary gap-3 fw-bold" >
+                <label for="color">Pick Color:</label>
+                <input type="color" id="color" value="#3d5c78" />
+            </div>
+            <div class="d-flex gap-2 justify-content-between align-content-center mt-2">
+                <button id="download-icon" class="btn btn-success">Download Favicon</button>
+                <button id="reset-grid" class="btn btn-warning ">Reset</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="./script.js"></script>
+</body>
+</html>
